@@ -1,3 +1,27 @@
 *{
     box-sizing: border-box;
 }
+
+body{
+    background-image: url('imgs/pattern-background-mobile.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+justify-content: center;
+
+}
+
+#card{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero{
+    width: 375px;
+}
+
+.info{
+    background-color: #fff;
+}
