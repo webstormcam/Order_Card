@@ -71,6 +71,7 @@ h3{
 
 #change:hover{
     text-decoration: none;
+    font-weight: 100;
 }
 
 .planRate{
@@ -109,7 +110,12 @@ text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-radius: 0.8rem;
+    font-weight: 900;
     
+}
+
+.purpleButton:hover{
+background-color: #392ae18c;
 }
 
 footer{
@@ -119,4 +125,8 @@ footer{
 footer p{
     font-weight: 900;
 
+}
+
+footer p:hover{
+    color:hsl(225, 54%, 23%);
 }
