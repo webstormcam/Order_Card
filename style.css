@@ -144,6 +144,7 @@ footer p{
 
 footer p:hover{
     color:hsl(225, 54%, 23%);
+    cursor: pointer;
 }
 
 
