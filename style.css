@@ -19,10 +19,19 @@ font-size: 16px;
     display: flex;
     flex-direction: column;
     background-color: #fff;
+    border-top-left-radius: 1rem ;
+    border-top-right-radius: 1rem ;
+    border-bottom-left-radius: 1rem ;
+    border-bottom-right-radius: 1rem ;
+    margin-top: 6rem;
+    -webkit-box-shadow: 1px 9px 15px 4px rgba(0,0,0,0.5); 
+box-shadow: 1px 9px 15px 4px rgba(0,0,0,0.5);
 }
 
 .hero{
     width: 375px;
+    border-top-left-radius: 1rem ;
+    border-top-right-radius: 1rem ;
 }
 
 
@@ -35,9 +44,11 @@ font-size: 16px;
 }
 
 h3{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 900;
-    color:hsl(225, 54%, 23%)
+    color:hsl(225, 54%, 23%);
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
     
 }
 
@@ -47,11 +58,13 @@ h3{
     line-height: 1.8rem;
     font-size: 1.1rem;
     color:hsl(224, 23%, 55%);
+    margin-bottom: 1.5rem;
 }
 
 .plan{
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 2rem;
     
     
 }
@@ -111,6 +124,7 @@ text-align: center;
     padding-bottom: 1rem;
     border-radius: 0.8rem;
     font-weight: 900;
+    margin-bottom: 1.5rem;
     
 }
 
@@ -120,6 +134,7 @@ background-color: #392ae18c;
 
 footer{
     text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 footer p{
