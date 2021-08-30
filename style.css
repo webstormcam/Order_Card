@@ -145,3 +145,36 @@ footer p{
 footer p:hover{
     color:hsl(225, 54%, 23%);
 }
+
+
+@media screen and (min-width:1440px){
+    body{
+        background-image: url('imgs/pattern-background-desktop.svg');
+    }
+
+    #card{
+width: 450px;
+    }
+
+    .hero{
+        width: 450px;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+
+    .plan{
+margin-bottom: 3rem;
+    }
+
+    .purpleButton{
+        margin-bottom: 2rem;
+    }
+
+    
+
+    footer{
+        margin-bottom: 3.5rem;
+    }
+}
